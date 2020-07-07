@@ -20,6 +20,30 @@
   .h-nav{
     display: none;
   }
+  .logoimg{
+    width: 200px;
+    position: absolute;
+    top:50%;
+    left: 4%;
+    transform: translateY(-50%);
+  }
+    
+  h2, h3, h4{
+    font-size: 15px;
+  }
+  p{
+    font-size: 13px;
+  }
+
+  dl{
+    font-size: 13px;
+  }
+    dt{
+      padding: 0;
+    }
+  dd{
+    padding-left: 120px;
+  }
 
   .main{
    float: none;
