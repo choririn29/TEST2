@@ -1,158 +1,189 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="jp">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TEST2</title>
-  <link rel="stylesheet" href="style.css">
+  <title>TEST2 </title>
+  <link rel="stylesheet" href="stylesheet.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
   <link rel="stylesheet" href="responsive.css">
 </head>
-
 <body>
   <div class="container">
-    <header class="header"> 
-
-      <!-- <div title></div> -->
-      <a href="#"><img class="logoimg" src="images/logo.png" alt="logo"></a>
-
-      <nav>
+    <header class="header">
+      <div class="h-title">
+        <a href="#" ><img class="logoimg" src="images/logo.png" alt="logo"></a>
+      
+      <!-- responsive nav bar -->
+      <div class="sp-menu">
+        <input type="checkbox" id="nav-input" class="nav-invisible">
+        <label id="nav-open" for="nav-input" onclick=""><span></span></label>
+        <div id="nav-contents">
+        <nav>
         <ul>
-          <li><a href="#" class="menu1" target="_blank"><span class="navmain">ホーム</span><br><span class="sub">HOME</span></a></li>
-          <li><a href="company.html" class="menu2" target="_blank"><span class="navmain">会社概要</span><br><span class="sub">COMPANY</span></a></li>
-          <li><a href="service.html" class="menu3" target="_blank"><span class="navmain">サービス</span><br><span class="sub">SERVICE</span></a></li>
-          <li><a href="recruite.html" class="menu4" target="_blank"><span class="navmain">採用情報</span><br><span class="sub">RECRUITE</span></a></li>
-          <li><a href="link.html" class="menu5" target="_blank"><span class="navmain">リンク</span><br><span class="sub">LINK</span></a></li>
-          <li><a href="contact.html" class="menu6" target="_blank"><span class="navmain">お問い合わせ</span><br><span class="sub">CONTACT</span></a></li>
+          <li class="h-sp-list"><a href="#">
+            <span class="h-sp-top">ホーム</span><br>
+            <span class="h-sp-bottom">HOME</span></a></li>
+          <li class="h-sp-list"><a href="company.html" >
+            <span class="h-sp-top">会社概要</span><br>
+            <span class="h-sp-bottom">COMPANY</span></a></li>
+          <li class="h-sp-list" ><a href="service.html">
+            <span class="h-sp-top">サービス</span><br>
+            <span class="h-sp-bottom">SERVICE</span></a></li>
+          <li class="h-sp-list"><a href="recruit.html">
+            <span class="h-sp-top">採用情報</span><br>
+            <span class="h-sp-bottom">RECRUITE</span></a></li>
+          <li class="h-sp-list"><a href="link.html">
+            <span class="h-sp-top">リンク</span><br>
+            <span class="h-sp-bottom">LINK</span></a></li>
+          <li class="h-sp-list"><a href="contact.html">
+            <span class="h-sp-top">お問い合わせ</span><br>
+            <span class="h-sp-bottom">CONTACT</span></a></li>
+        </ul>
+      </nav>
+      </div>
+      </div>
+    </div>
+      <!------------------------------->
+
+   
+
+      <nav class="h-nav">
+        <ul>
+          <li class="h-list"><a href="#" class="h-l-box active" ><span class="h-l-top">ホーム</span><br><span class="h-l-bottom">HOME</span></a></li>
+          <li class="h-list"><a href="company.html" class="h-l-box" target="_blank"><span class="h-l-top">会社概要</span><br><span class="h-l-bottom">COMPANY</span></a></li>
+          <li class="h-list" ><a href="service.html" class="h-l-box" target="_blank"><span class="h-l-top">サービス</span><br><span class="h-l-bottom">SERVICE</span></a></li>
+          <li class="h-list"><a href="recruit.html" class="h-l-box" target="_blank"><span class="h-l-top">採用情報</span><br><span class="h-l-bottom">RECRUITE</span></a></li>
+          <li class="h-list"><a href="link.html" class="h-l-box" target="_blank"><span class="h-l-top">リンク</span><br><span class="h-l-bottom">LINK</span></a></li>
+          <li class="h-list"><a href="contact.html" class="h-l-box" target="_blank"><span class="h-l-top">お問い合わせ</span><br><span class="h-l-bottom">CONTACT</span></a></li>
         </ul>
       </nav>
 
-      <div class="top">
-      <img class="mainimg" src="images/main.jpg" alt="main">
-      <h1>あなたの企業をサポートします。<br>
-      お気軽にご相談ください。</h1>
-    </div>
+
+      <img class="mainimg" src="images/3.jpg" alt="mainimg">
+
     </header>
-
+    <div class="contents">
+    <!-- -------------- main --------------  -->
     <main class="main">
-      <div class="section">
-        <div class="topic">
-          <h2>更新情報・お知らせ</h2>
-        </div>
+      <section>
+        <h2 class="m-topic">更新情報・お知らせ</h2>
+        <div class="m-content">
         <dl>
-<dt>2018/07/20</dt>
-<dd>html,cssなど全面リニューアル。旧ファイルが必要な場合はお問い合わせ下さい。<span class="new"> NEW </span></dd>
-
-<dt>2015/05/07</dt>
-<dd>tp_biz30公開。</dd>
-
-<dt>20XX/00/00</dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-<dt>20XX/00/00</dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-<dt>20XX/00/00</dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-<dt>20XX/00/00</dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-<dt>20XX/00/00</dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
-<dt>20XX/00/00</dt>
-<dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
+        <dt>2018/07/20</dt>
+          <dd>html,cssなど全面リニューアル。旧ファイルが必要な場合はお問い合わせ下さい。<span class="new">NEW</span></dd>
+          <dt>2015/05/07</dt>
+          <dd>tp_biz30公開。</dd>
+          <dt>20XX/00/00</dt>
+          <dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
+          <dt>20XX/00/00</dt>
+          <dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
+          <dt>20XX/00/00</dt>
+          <dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
+          <dt>20XX/00/00</dt>
+          <dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
+          <dt>20XX/00/00</dt>
+          <dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
+          <dt>20XX/00/00</dt>
+          <dd>サンプルテキスト。サンプルテキスト。サンプルテキスト。</dd>
         </dl>
-        
-         <p class="post">≫<a href="#">過去ログ</a></p>
+        <p class="m-c-past">≫ <a href="#">過去ログ</a></p>
+        </div>
+      </section>
+      
+      <section>
+        <h2 class="m-topic">テンプレートのご利用前に必ずお読み下さい</h2>
+        <h3 class="m-subtopic">利用規約のご案内</h3>
+        <div class="m-content">
+          <p>このテンプレートは、<a href="#">Template Party</a>にて無料配布している『ビジネス・企業向け 無料ホームページテンプレート tp_biz30』です。必ずダウンロード先のサイトの<a href="#">利用規約</a>をご一読の上でご利用下さい。</p>
+          <p class="m-red">■HP最下部の著作表示『Web Design:Template-Party』は無断で削除しないで下さい。</p>
+          <p>わざと見えなく加工する事も禁止です。</p>
+          <p class="m-red">■下部の著作を外したい場合は</p>
+          <p><a href="#">Template-Party</a>の<a href="#">ライセンス契約</a>を行う事でHP下部の著作を外す事ができます。</p>
         </div>
 
-
-        <div class="section">
-          <div class="topic">
-            <h2>テンプレートのご利用前に必ずお読み下さい</h2>
-          </div>
-
-          <div class="subtopics">
-            <h3>利用規約のご案内</h3>
-          </div>
-          <p>このテンプレートは、<a href="#">Template Party</a>にて無料配布している『ビジネス・企業向け 無料ホームページテンプレート tp_biz30』です。必ずダウンロード先のサイトの<a href="#">利用規約</a>をご一読の上でご利用下さい。</p>
-          <p class="sttext">■HP最下部の著作表示『Web Design:Template-Party』は無断で削除しないで下さい。</p>
-          <p>わざと見えなく加工する事も禁止です。</p>
-          <p class="sttext">■下部の著作を外したい場合は</p>
-          <p><a href="#">Template-Party</a>の<a href="#">ライセンス契約</a>を行う事でHP下部の著作を外す事ができます。</p>
-          <div class="subtopics">
-            <h3 id="stred">※当テンプレートにはお問い合わせフォーム（自動フォーム：試用版）がセットされています</h3>
-          </div>
-            <p><a href="#">contact.html</a>と同じ３項目のお問い合わせフォームを簡単に使えるようにセットしています。</p>
-            <p class="sttext">■自動フォームを使う場合（※編集に入る前にご確認下さい）</p>
-            <p>あなたのメールアドレス設定と、簡単な編集だけで使えます。<a href="#">詳しくはこちらのマニュアルをご覧下さい。</a></p>
-            <p class="sttext">■自動フォームを使わない場合</p>
-            <p>テンプレートに梱包されている「form.html」「confirm.html」「finish.html」の3枚のファイルを削除して下さい。</p>
-
-
-          <div class="subtopics">
-            <h3>テンプレートに梱包されているjavascriptファイル（jsファイル）について</h3>
-          </div>          
-            <p>当テンプレートに梱包されているjavascriptファイルは全て<a href="#">有限会社クリタス様</a>提供のものです。jsファイルは改変せずにご利用下さい。<br>
+        <h3 class="m-subtopic m-red">※当テンプレートにはお問い合わせフォーム（自動フォーム：試用版）がセットされています</h3>
+        <div class="m-content">
+          <p><a href="#">contact.html</a>と同じ３項目のお問い合わせフォームを簡単に使えるようにセットしています。</p>
+          <p class="m-red">■自動フォームを使う場合（※編集に入る前にご確認下さい）</p>
+          <p>あなたのメールアドレス設定と、簡単な編集だけで使えます。<a href="#">詳しくはこちらのマニュアルをご覧下さい。</a></p>
+          <p class="m-red">■自動フォームを使わない場合</p>
+          <p>テンプレートに梱包されている「form.html」「confirm.html」「finish.html」の3枚のファイルを削除して下さい。</p>
+        </div>
+        
+        <h3 class="m-subtopic">テンプレートに梱包されているjavascriptファイル（jsファイル）について</h3>
+        <div class="m-content">
+          <p>当テンプレートに梱包されているjavascriptファイルは全て<a href="#">有限会社クリタス様</a>提供のものです。jsファイルは改変せずにご利用下さい。<br>
             また、当サイトのテンプレート「以外」に使いたいなど、「プログラムのみ」を使う場合は<a href="#">こちらの規約</a>をお守り下さい。</p>
-
-          <div class="subtopics">
-            <h3>当テンプレートの詳しい使い方は</h3>
-          </div>
+        </div>
+        
+        <h3 class="m-subtopic">当テンプレートの詳しい使い方は</h3>
+        <div class="m-content">
           <p><a href="#">こちらをご覧下さい。</a></p>
         </div>
 
-        <div class="section">
-          <div class="topic">
-            <h2>企業向けCMSプログラム販売中</h2>
-          </div>       
-          <p>トップページや会社概要ページや業務案内ページなどの各ページレイアウト設定済みのプログラムを販売中です。<a href="#"> 詳しくはこちらをご覧下さい。</a>
-          </p> 
-      </div>
+      </section>
+
+      <section>
+        <h2 class="m-topic">企業向けCMSプログラム販売中</h2>
+        <div class="m-content">
+          <p>トップページや会社概要ページや業務案内ページなどの各ページレイアウト設定済みのプログラムを販売中です。<a href="#"> 詳しくはこちらをご覧下さい。</a></p>
+        </div>
+
+      </section>
+
     </main>
-    
+
     <aside class="side">
-      <div class="side-box1">
-        <h3>Menu</h3>
-        <p class="sblist"><a href="#">メニュー</a></p>
-        <p class="sblist"><a href="#">メニュー</a></p>
-        <p class="sblist"><a href="#">メニュー</a></p>
+      <div class="s-1st-box">
+      <h2 class="s-topic">Menu</h2>
+      <ul class="s-menu">
+        <li class=><a href="#">メニュー</a></li>
+        <li><a href="#">メニュー</a></li>
+        <li><a href="#">メニュー</a></li>
+      </ul>
+      </div>
+      <h2 class="s-topic">Menu</h2>
+      <ul class="s-menu">
+        <li><a href="#">メニュー</a></li>
+        <li><a href="#">メニュー</a></li>
+        <li><a href="#">メニュー</a></li>
+      </ul>
+
+      <div class="s-1st-box">
+      <h2 class="s-topic">製品情報</h2>
+      <ul class="s-menu">
+      <li><a href="#"><img class="s-image" src="images/sample1.jpg" alt="sample"> <p class="s-sub">製品情報</p><p>簡単な説明をここに入れます。</p> </a></li>
+      <li><a href="#"><img class="s-image" src="images/sample1.jpg" alt="sample"> <p class="s-sub">製品情報</p><p>簡単な説明をここに入れます。</p> </a></li>
+      <li><a href="#"><img class="s-image" src="images/sample1.jpg" alt="sample"> <p class="s-sub">製品情報</p><p>簡単な説明をここに入れます。</p> </a></li>
+      </ul>
       </div>
 
-      <div class="side-box2">
-        <h3>Menu</h3>
-        <p class="sblist"><a href="#">メニュー</a></p>
-        <p class="sblist"><a href="#">メニュー</a></p>
-        <p class="sblist"><a href="#">メニュー</a></p>
+      <h2 class="s-topic">製品情報</h2>
+      <ul class="s-menu">
+        <li><a href="#"><img class="s-image" src="images/sample1.jpg" alt="sample"> <p class="s-sub">製品情報</p><p>簡単な説明をここに入れます。</p> </a></li>
+        <li><a href="#"><img class="s-image" src="images/sample1.jpg" alt="sample"> <p class="s-sub">製品情報</p><p>簡単な説明をここに入れます。</p> </a></li>
+        <li><a href="#"><img class="s-image" src="images/sample1.jpg" alt="sample"> <p class="s-sub">製品情報</p><p>簡単な説明をここに入れます。</p> </a></li> </ul>
+
+      <div class="s-1st-box last">
+        <h2 class="s-topic">運営</h2>
+        <p class="s-name">株式会社SAMPLE COMPANY</p>
+        <p class="s-add">東京都XX区XXXXビル3F</p>
+        <p class="s-add">TEL:03-0000-0000</p>
+        <p class="s-add">(AM9:00〜PM5:00 土日祝休み)</p>
       </div>
 
-      <div class="side-box1" >
-        <h3>製品情報</h3>
-        <div class="sbimg">
-        <img class="side-img" src="images/product.jpg" alt="">
-        <p class="sblist product"> <a href="#"> <span class="sb-name">製品情報</span><br>
-        簡単な説明をここに入れます。</a></p>
-      </div>
-      </div>
-
-      <div class="side-box2">
-        <h3>製品情報</h3>
-        <div class="sbimg">
-        <img class="side-img" src="images/product.jpg" alt="">
-        <p class="sblist product"> <a href="#"> <span class="sb-name">製品情報</span><br>
-        簡単な説明をここに入れます。</a></p>
-      </div>
-    </div>
-
-      <div class="side-box1">
-        <h3>運営</h3>
-        <p class="side-company">株式会社SAMPLE COMPANY</p>
-        <p class="side-add" >東京都XX区XXXXビル3F<br>
-          TEL:03-0000-0000<br>(AM9:00〜PM5:00 土日祝休み)</p>
-      </div>
 
     </aside>
+  </div>
 
     <footer class="footer">
-     <p>Copyright© <a href="#">SAMPLE COMPANY</a> All Rights Reserved.</p>
-     <p class="ftbottom"> <a href="#">《Web Design:Template-Party》</a></p>
+      <p>Copyright© <a class="ft-link" href="#">SAMPLE COMPANY</a> All Rights Reserved.</p><br>
+      <p class="ft-link"> <a href="#">《Web Design:Template-Party》</a></p>
     </footer>
+ 
   </div>
+  
+
 </body>
 </html>
