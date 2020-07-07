@@ -1,0 +1,32 @@
+@media all and (max-width:1200px){
+  .container{
+    width:100%;
+  }
+
+}
+
+
+@media all and (min-width:801px){
+#nav-open{
+  display: none;
+}
+#nav-contents{
+  display: none;
+}
+}
+
+
+  @media all and (max-width:800px){
+  .h-nav{
+    display: none;
+  }
+
+  .main{
+   float: none;
+   width: 100%;
+  }
+
+  .side{
+    width: 100%;
+  }
+}
