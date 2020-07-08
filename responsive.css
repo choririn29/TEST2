@@ -27,13 +27,17 @@
     left: 4%;
     transform: translateY(-50%);
   }
-    
   h2, h3, h4{
     font-size: 15px;
   }
   p{
     font-size: 13px;
   }
+
+  .m-l-table{
+  width: 30%;
+  }
+  
 
   dl{
     font-size: 13px;
@@ -48,6 +52,14 @@
   .main{
    float: none;
    width: 100%;
+  }
+
+  input{
+    width:100%;
+  }
+  
+  textarea{
+    width: 100%;
   }
 
   .side{
